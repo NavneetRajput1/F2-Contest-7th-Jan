@@ -6,6 +6,8 @@ let arr = [
   { id: 3, name: "karen", age: "19", profession: "admin" },
 ];
 
+
+
 function PrintDeveloperswithMap() {
   //Write your code here
   arr.map((item)=> {
@@ -39,9 +41,9 @@ function removeAdmin() {
 function concatenateArray() {
   //Write your code here
   let arr2 = [
-    { id: 5, name: "Navneet", age: "24", profession: "Engineer" },
-    { id: 6, name: "Abhishek", age: "23", profession: "Politician" },
-    { id: 7, name: "Mudit", age: "22", profession: "Baklol" },
+    { id: 5, name: "Akash", age: "22", profession: "SDE" },
+    { id: 6, name: "Rupam", age: "22", profession: "Freelancer" },
+    { id: 7, name: "Diya", age: "19", profession: "Undergrade" },
   ];
   let concateArray = arr.concat(arr2);
   console.log(concateArray)
